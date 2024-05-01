@@ -1,0 +1,78 @@
+### Goals
+
+The goal of this project is to identify relevant variables that could come into play
+for a data auto-completion application required by Santé Publique France.
+
+### Data overview
+
+The data is the Open Food Facts dataset. It's a quite large dataset with more than 160 variables;
+
+Only relevant variables to the goal of this project were kept.
+
+As I chose to focus on the Nutri-score related data, I reduced the dataset scope to 22 variables:
+
+- General qualitative product information:
+	Product name
+	Brand
+	Country of origin
+	Product category
+	Product main category
+
+- Nutritional quantitative information:
+	Nutritional values per 100g for variables with less than 80% missing values
+
+-  Nutri-score
+
+
+### Cleaning treatments
+
+The following data quality shortfalls have been identified during the inspection phase.
+
+1. 
+Shortfall : Creation date as a string Unix timestamp
+Treatment : Remove value errors then convert to datetime
+
+2.
+Shortfall : 6000 full duplicates
+Treatment : Remove them
+
+3. 
+Shortfall : 45000 duplicates for product name & brand combination (some products have different nutritional values over time)
+Treatment : Keep only the most recent value
+
+4. 
+Shortfall : 73% missing values for categories_fr
+Treatment : Remove variable
+
+5.
+Shortfall : 73% missing values in main_category_fr
+Treatment : Remove variable
+
+6. 
+Shortfall : 722 unique values in countries_fr
+Treatment : Remove inconsistent typos (multiple countries, non-latin characters, only 1,5% of the dataset)
+
+7.
+Shortfall : 1000 Anormal outlier values for nutritional values
+Treatment : Remove out of bounds values
+
+8.
+Shortfall : 20 to 40% missing values on all nutritional values
+Treatment : Impute values with KNNImputer
+
+
+9.
+Shortfall : 99% missing values on fruits-vegetables-nuts_100g
+Treatment : Deduct missing values from Nutriscore formula and other nutritional values
+
+
+10.
+Shortfall : 31% missing values on nutriscore
+Treatment : Compute new nutriscore variable with clean values
+
+
+
+
+
+
+

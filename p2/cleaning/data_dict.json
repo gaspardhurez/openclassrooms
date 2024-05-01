@@ -1,0 +1,51 @@
+[
+	{
+		"variable": "product_name",
+	    "exact_name": true,
+	    "description": "Name of the product",
+	    "dtype": "string",
+	    "values_range": [""],
+	    "possible_values": [""],
+	    "nullable": true,
+	    "unique": false,
+	    "unique_combinations": ["product_name", "brand"],
+	    "regex": ""
+	},
+	{
+		"variable": "brands",
+	    "exact_name": true,
+	    "description": "Name of the brand",
+	    "dtype": "string",
+	    "values_range": [""],
+	    "possible_values": [""],
+	    "nullable": true,
+	    "unique": false,
+	    "unique_combinations": ["product_name", "brand"],
+	    "regex": ""
+	},
+	{
+		"variable": "countries_fr",
+	    "exact_name": true,
+	    "description": "Name of the country of origin",
+	    "dtype": "string",
+	    "values_range": [""],
+	    "possible_values": [""],
+	    "nullable": true,
+	    "unique": false,
+	    "unique_combinations": [""],
+	    "regex": ""
+	},
+
+	{
+		"variable": "100g",
+	    "exact_name": false,
+	    "description": "Nutritional values",
+	    "dtype": "float64",
+	    "values_range": ["0.0", "100.0"],
+	    "possible_values": [""],
+	    "nullable": true,
+	    "unique": false,
+	    "unique_combinations": [""],
+	    "regex": ""
+	}
+]
