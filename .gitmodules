@@ -4,3 +4,6 @@
 [submodule "p6-dog-pictures-classifier"]
 	path = p6-dog-pictures-classifier
 	url = git@github.com:gaspardhurez/p6-dog-pictures-classifier.git
+[submodule "p7-proof-of-concept"]
+	path = p7-proof-of-concept
+	url = git@github.com:gaspardhurez/p7-proof-of-concept.git
