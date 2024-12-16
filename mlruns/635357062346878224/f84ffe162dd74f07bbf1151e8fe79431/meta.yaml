@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635357062346878224/f84ffe162dd74f07bbf1151e8fe79431/artifacts
+end_time: 1726235098303
+entry_point_name: ''
+experiment_id: '635357062346878224'
+lifecycle_stage: active
+run_id: f84ffe162dd74f07bbf1151e8fe79431
+run_name: monumental-zebra-372
+run_uuid: f84ffe162dd74f07bbf1151e8fe79431
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726235093270
+status: 3
+tags: []
+user_id: gaspardhurez

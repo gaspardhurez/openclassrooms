@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635357062346878224/a6c18d2247634a4dade4d5a81237f595/artifacts
+end_time: 1726238384746
+entry_point_name: ''
+experiment_id: '635357062346878224'
+lifecycle_stage: active
+run_id: a6c18d2247634a4dade4d5a81237f595
+run_name: stylish-midge-419
+run_uuid: a6c18d2247634a4dade4d5a81237f595
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726238384666
+status: 4
+tags: []
+user_id: gaspardhurez

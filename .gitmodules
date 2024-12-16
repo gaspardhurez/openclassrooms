@@ -1,0 +1,6 @@
+[submodule "p5-stackoverflow-tagging-system"]
+	path = p5-stackoverflow-tagging-system
+	url = git@github.com:gaspardhurez/p5-stackoverflow-tagging-system.git
+[submodule "p6-dog-pictures-classifier"]
+	path = p6-dog-pictures-classifier
+	url = git@github.com:gaspardhurez/p6-dog-pictures-classifier.git

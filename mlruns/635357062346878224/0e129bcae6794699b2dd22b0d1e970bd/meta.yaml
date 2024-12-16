@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635357062346878224/0e129bcae6794699b2dd22b0d1e970bd/artifacts
+end_time: 1726238370558
+entry_point_name: ''
+experiment_id: '635357062346878224'
+lifecycle_stage: active
+run_id: 0e129bcae6794699b2dd22b0d1e970bd
+run_name: learned-shoat-672
+run_uuid: 0e129bcae6794699b2dd22b0d1e970bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726238370474
+status: 4
+tags: []
+user_id: gaspardhurez

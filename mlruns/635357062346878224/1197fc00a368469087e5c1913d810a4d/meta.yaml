@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/635357062346878224/1197fc00a368469087e5c1913d810a4d/artifacts
+end_time: 1726238470437
+entry_point_name: ''
+experiment_id: '635357062346878224'
+lifecycle_stage: active
+run_id: 1197fc00a368469087e5c1913d810a4d
+run_name: unruly-hen-610
+run_uuid: 1197fc00a368469087e5c1913d810a4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726238465250
+status: 3
+tags: []
+user_id: gaspardhurez
